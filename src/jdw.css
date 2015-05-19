@@ -1,0 +1,57 @@
+body {
+  background: #ddd;
+  font-family: arial;
+  font-size: 14px;
+  padding-left: 20%
+}
+.row {
+  width: 400px;
+  background: #fff;
+}
+h1 {
+  background: #4183C4;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  text-align: center
+}
+ul#komentar {
+  list-style-type: none;
+  color: #3f4549;
+  padding: 20px
+}
+ul#komentar li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+  border-bottom: 1px solid #eee
+}
+ul#komentar li a {
+    text-decoration: none;
+    color: #4183C4
+}
+.avatar-container {
+    width: 60px;
+    box-sizing: border-box
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    float: left;
+    margin: 5px
+}
+.post-container {
+    padding-top: 3px;
+    margin-left: 70px; 
+    box-sizing: border-box
+}
+.profile {
+    font-weight: bold
+}
+.date, .posted, .buled {
+  color: #a5b2b9
+}
+.buled {
+  padding: 0 2px
+}
